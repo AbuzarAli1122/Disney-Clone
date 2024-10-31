@@ -42,7 +42,7 @@ function Slider() {
         src={IMAGE_BASE_URL+item.backdrop_path }
         alt={`Movie ${index + 1}`}
         className='min-w-full md:h-[550px]  object-cover 
-        object-left-top mr-5 rounded-md hover:border-[4px] border-gray-400
+        object-left-top mr-2 rounded-md hover:border-[4px] border-gray-400
         transition-all duration-100 ease-in ' />
     ))}
     </div>
